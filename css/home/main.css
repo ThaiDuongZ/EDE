@@ -32,7 +32,6 @@
 }
 
 .menutora {
-    /* background-color: black; */
     top: 0;
 }
 
@@ -622,6 +621,11 @@
     background-position: center;
     background-attachment: fixed;
     cursor: pointer;
+}
+
+.homebanner__img {
+    display: none;
+    position: absolute;
 }
 
 .space {
