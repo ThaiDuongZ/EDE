@@ -230,4 +230,47 @@
   padding: 10px ;
 }
 
+.shops {
+  padding: 30px 0;
+}
+
+.footer__header {
+  padding: 30px 15px;
+}
+
+.footer__l {
+  display: none;
+}
+
+.footer__header {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+
+.footer__h{
+  font-size: 14px;
+}
+
+.footer__dk--header {
+  font-size: 14px;
+}
+
+.footer__header--dk_p { 
+  padding:  15px 15px;
+}
+
+.footer__adr {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__adr--left_h {
+  text-align: center;
+}
+
+.footer__adr--left_n {
+  text-align: center;
+}
+
 }
