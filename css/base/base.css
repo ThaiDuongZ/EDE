@@ -92,7 +92,7 @@ html {
 
 .header2__nav:hover > .header2 {
     display: block;
-    animation: header2 0.5s ease forwards;
+    animation: header2 1s ease forwards;
     /* transform: translateY(200px); */
 }   
 
@@ -111,7 +111,7 @@ html {
     top: 84px;
     left: -258px;
     display: none;
-    transition: all 0.5s;
+    transition: all 1s;
     
 }
 

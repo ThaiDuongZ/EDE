@@ -468,23 +468,4 @@
     cursor: pointer;
 }
 
-.shops {
-    height: 90px;
-    width: 100%;
-    background: #ebebeb;
-    text-align: center;
-    font-size: 22px;
-    padding: 30px;
-    font-weight: bold;
-
-}
-
-.shops__content > a {
-    color: #111111;
-}
-
-.shops__content > a:hover {
-    color: #E29481;
-    cursor: pointer;
-}
 

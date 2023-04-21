@@ -42,8 +42,17 @@
   padding: 10px 15px;
   background-color: #ffffff;
   width: 100%;
-  display: none;
+  top: 64px;
+  /* display: none; */
   }
+
+.header__logo--link{
+    height: 36px;
+}
+
+.header__tools--search {
+  display: none;
+}
 
 .producttop {
   height: 1450px;

@@ -67,13 +67,7 @@
 }
 
 .content__content--left {
-    flex: 0.851;
-    padding-right: 7px;
-}
-
-.content__content--left0 {
-    padding:  0;
-    padding-left: 7px;
+    flex: 0.9;
 }
 
 .content__content--right {
@@ -95,7 +89,6 @@
 .content__content--right_top {
     display: flex;
     flex: 1;
-    color: #222222;
 }
 
 .productnew1__content--sp {
@@ -105,6 +98,16 @@
 .content__content--right_bottom {
     display: flex;
     flex: 2.5;
+}
+
+.content__content--left{
+    flex: 0.851;
+    padding-right: 7px;
+}
+
+.content__content--left0 {
+    padding: 0;
+    padding-left: 7px;
 }
 
 .content__content--right_bottom-item {
@@ -118,17 +121,6 @@
     height: 54px;
     width: 100%;
     margin: 15px;
-}
-
-.productnew1__content--ct_top {
-    font-weight: 500;
-    line-height: 16.5px;
-    font-size: 15px;
-}
-
-.productnew1__content--ct_bottom {
-    font-size: 13px;
-    line-height: 21px;
 }
 
 .productnew1__content--sp:hover > img{
@@ -161,14 +153,45 @@
 }
 
 
-/* .test__img {
-    background-image: url(https://product.hstatic.net/200000000133/product/23ssme008t_-_23scve007d_b_d92ad5384c504b39ad434509b12af451_master.jpg);
-    background-repeat: no-repeat;
-    flex: 10;
-    height: 100%;
-    transition: all ease 2s;
+.sp__header {
+    font-size: 29px;
+    line-height: 34.8px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
-.test__img:hover {
-    background-image: url(https://product.hstatic.net/200000000133/product/23ssme008t_-_23scve007d_a_2783e3be36204422a0cf2d1b247fc886_master.jpg);
-} */
+.sp__list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.sp__list--item {
+    font-size: 15px;
+    margin: 12px 0;
+    padding: 0 10px;
+    font-weight: 400;
+    width: auto;
+    height: auto;
+}
+
+.sp__list--item:hover {
+    cursor: pointer;
+    color: #E29481;
+}
+
+.sp__list--item1 {
+    font-weight: 700;
+}
+
+.sp__list--item + .sp__list--item {
+    border-left: #111111 solid 1px;
+} 
+
+.productnew1__content--ct_bottom {
+    display: flex;
+}
+
+.productnew1__content--ct_bottom > span {
+    flex: 0.1;
+}
